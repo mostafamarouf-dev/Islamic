@@ -1,0 +1,33 @@
+.nav-sty{
+    direction: rtl;
+    color: black;
+    box-shadow: 0.2px 0.2px 1px ;
+}
+
+.brand-sty{
+    width: 100px;
+    height:50px;
+    border: 5px solid #000000;
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+.links-sty{
+margin-left: 400px;
+}
+
+.links-sty a{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-right: 100px;
+}
+
+a{
+    cursor: pointer;
+} 
+
+.active {
+    font-weight: bold;
+    color: rgb(255, 123, 0);
+    text-decoration: underline;
+  }
