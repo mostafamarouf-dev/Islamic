@@ -1,1 +1,24 @@
-<p>azkar works!</p>
+<div class="container" style="direction: rtl;display: flex;justify-content: center;">
+    <div class="row">
+        <h2 class="title">الأذكـــــــــــــــار</h2>
+        <div class="card card-sty"  *ngFor="let azkar of list; let i =index">
+            <div class="card-body">
+              <h3 class="card-title">
+                {{azkar.text}}
+            </h3>
+              <div class="num">
+                <h2>{{azkar.counter}}</h2>
+              </div>
+              <div class="btn btn-danger" (click)="counter(i)">
+                العداد
+              </div>
+            </div>
+          </div>
+    </div>
+
+</div>
+  
+
+
+
+
