@@ -1,1 +1,12 @@
-<p>quran works!</p>
+<h2 class="title">القران الكريم</h2>
+
+<div  style="direction: rtl; margin:auto">
+  <div *ngFor="let surah of surahs" class ="main-sty">
+    <button class="btn btn-danger btn-sty">
+        <a href="#" class="a-sty">{{ surah.number }}. {{ surah.name }}</a>
+    </button>
+  </div>
+</div>
+
+
+
