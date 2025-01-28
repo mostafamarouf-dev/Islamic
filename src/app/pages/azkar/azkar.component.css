@@ -1,0 +1,12 @@
+.title{
+    text-align: center;
+    background-color: aquamarine;
+    margin:10px;
+    padding: 7px;
+}
+
+.card-sty{
+    margin: 10px;
+    width: 18rem;
+    text-align: center;
+}
